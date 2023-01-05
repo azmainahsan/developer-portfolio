@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
