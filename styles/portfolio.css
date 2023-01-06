@@ -1,21 +1,126 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans';
 }
 
-nav{
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
+
 }
-nav h2{
+
+nav h2 {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
+}
+
+.primary-btn {
+    border: 0;
+    width: 150px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner {
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h3 {
+    /* hi, im */
+    font-weight: 600;
+    font-size: 45px;
+
+    /* Dark 02 */
+
+    color: #474747;
+}
+
+.banner h1 {
+    /* mary hardy */
+    width: 498px;
+    height: 116px;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+
+    /* Dark 01 */
+
+    color: #181818;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    margin: 130px 0;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+.info-title {
+    color: #757575;
+    font-weight: 400;
+
+}
+
+.info-details {
+    color: #474747;
+    font-weight: 700;
 }
